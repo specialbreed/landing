@@ -1,0 +1,90 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #E7E3FC;
+    padding: 10px 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_container {
+    width: 60%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.navigation {
+    width: 75%;
+    /* border: 1px solid purple; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+ul li {
+    /* border: 1px solid red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-right {
+    height: 18px;
+    margin-left: 8px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.home_btn {
+    width: 111px;
+    height: 49px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #27c3a7 , #4bbf49);
+    color: #fff;
+}
+
+.signup_btn {
+    width: 198px;
+    height: 49px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #795ffd , #3518c9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_btn li {
+    margin-left: 8px;
+}
