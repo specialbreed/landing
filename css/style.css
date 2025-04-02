@@ -5,7 +5,7 @@ body, ul {
 
 .navbar{
     /* border: 1px solid red; */
-    border-bottom: 1px solid #E7E3FC;
+    border-bottom: 1px solid #4f32df;
     padding: 10px 0;
     height: 55px;
     display: flex;
@@ -87,4 +87,70 @@ button {
 
 .signup_btn li {
     margin-left: 8px;
+}
+
+.hero {
+    background: white;
+    color: white;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 36px;
+}
+.hero span {
+    color: #f4d03f;
+}
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.ai-features {
+    background: #785EFD;
+    color: white;
+    padding: 50px 20px;
+}
+.ai-features span {
+    color: #f4d03f;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature-card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.get_started{
+    width: 198px;
+    height: 49px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #795ffd , #3518c9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
